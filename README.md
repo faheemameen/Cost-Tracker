@@ -7,10 +7,26 @@ It tracks input and output tokens, measures response time, and calculates the es
 
 ## How to Run
 
-1. Configure environment variables
+1. Clone the repository:
+```bash
+git clone GITHUB_REPOSITORY_URL
+```
+
+2. Navigate to the project directory:
+```bash
+cd cost-tracker
+```
+
+3. Install dependencies:
+
+```bash
+uv sync
+```
+
+4. Configure environment variables
 Create a .env file in the project directory and add your API keys and model names.
 
-2. Run the project
+5. Run the Application
 
 ```bash
 uv run tracker.py "Explain Agentic Ai in one paragraph."
